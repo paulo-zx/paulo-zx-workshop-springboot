@@ -1,11 +1,11 @@
-package config;
+package com.example.course;
 
-import entities.User;
+import com.example.course.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
-import repositories.UserRepository;
+import com.example.course.UserRepository;
 
 import java.util.Arrays;
 
